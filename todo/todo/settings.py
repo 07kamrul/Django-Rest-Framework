@@ -85,12 +85,12 @@ DATABASES = {
     # }
 
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'todo',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'vision30',
+        'USER': 'kamrul',
+        'PASSWORD': 'kamrulhasan123',
+        'HOST': 'database-1.c774vwgqhqdv.ap-south-1.rds.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
